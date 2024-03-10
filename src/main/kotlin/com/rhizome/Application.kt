@@ -8,10 +8,7 @@ fun main(args: Array<String>) {
 }
 
 fun Application.module() {
-    configureSecurity()
-    configureHTTP()
+    configureCORS()
     configureMonitoring()
-    configureSerialization()
-    configureTemplating()
     configureRouting()
 }
